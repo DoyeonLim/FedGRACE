@@ -1,0 +1,10 @@
+# Python 3.8. Versions of the environment the reported results were produced with.
+# For another CUDA version (or CPU only), install the matching torch 2.4.1 build instead of the line below.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1+cu121
+numpy==1.22.4
+pandas==1.3.5
+scikit-learn==1.0.2
+scipy==1.7.3
+# Optional, only for --use_wandb 1:
+# wandb==0.24.2

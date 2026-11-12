@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+
+# run outputs
+results/
+wandb/
+*.pth
+*.pt
